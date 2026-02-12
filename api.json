@@ -1,0 +1,369 @@
+{
+  "category": "ENTITY_SPIRIT",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/golem",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "golem",
+    "name": "Golem",
+    "aliases": [
+      {
+        "name": "Golem of Prague",
+        "region": "Czech Republic",
+        "meaning": "Most famous golem legend"
+      },
+      {
+        "name": "גולם",
+        "language": "Hebrew",
+        "meaning": "Golem (original)"
+      }
+    ],
+    "category": "ENTITY_SPIRIT",
+    "subcategory": "Created Being",
+    "tags": [
+      "jewish-folklore",
+      "artificial-life",
+      "clay-creature",
+      "kabbalah",
+      "protector",
+      "servant",
+      "prague",
+      "rabbi-loew"
+    ],
+    "status": "traditional_folklore",
+    "description": {
+      "summary": "Animated anthropomorphic being created from inanimate matter (clay or mud) in Jewish folklore. Most famous is the Golem of Prague, created by Rabbi Judah Loew in the 16th century to defend the Jewish community.",
+      "full": "The golem is an animated anthropomorphic being in Jewish folklore, created entirely from inanimate matter such as clay or mud. The most famous golem legend is the Golem of Prague, attributed to Rabbi Judah Loew ben Bezalel in the 16th century. According to the legend, the golem was formed from clay and brought to life through ritual use of sacred names of God, typically by inscribing the word 'emet' (truth) on its forehead or placing a tablet (shem) with God's name in its mouth. The golem is described as large, strong, mute, and obedient, lacking a soul and the ability to speak. Its purpose was typically to serve as a defender of the Jewish community, particularly the Prague ghetto, protecting Jews from persecution and pogroms. However, the legend warns that the golem could become uncontrollable, growing violent or following orders too literally. The creature could be deactivated by removing the animating shem or erasing the first letter of 'emet' to spell 'met' (death). The golem legend has roots in Jewish mysticism (Kabbalah) and the Genesis creation story, and has profoundly influenced later concepts of artificial life, including Frankenstein's monster and modern robotics ethics."
+    },
+    "etymology": {
+      "origin": "From Hebrew 'גולם' (golem), meaning 'shapeless mass' or 'raw material.' Appears in Psalm 139:16 of the Hebrew Bible referring to an unformed substance.",
+      "meaning": "Shapeless mass, unformed substance, raw material",
+      "first_use": "Biblical era (in different context); folklore use medieval period onward"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "ENTITY_SPIRIT",
+      "type": "Created Being",
+      "subtype": "Artificial Life",
+      "variant": "Jewish Mystical Creation"
+    },
+    "related_phenomena": [
+      {
+        "id": "homunculus",
+        "name": "Homunculus",
+        "relationship": "similar",
+        "description": "Alchemical artificial human"
+      },
+      {
+        "id": "automaton",
+        "name": "Automaton",
+        "relationship": "similar",
+        "description": "Mechanical artificial beings"
+      },
+      {
+        "id": "tulpa",
+        "name": "Tulpa",
+        "relationship": "similar",
+        "description": "Thought-form being from Tibetan Buddhism"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "composition": "Clay or mud",
+      "appearance": "Large, humanoid figure",
+      "features": [
+        {
+          "feature": "Large size",
+          "description": "Typically depicted as very large and strong",
+          "frequency": "always"
+        },
+        {
+          "feature": "Clay/earthen body",
+          "description": "Made entirely from clay or mud",
+          "frequency": "always"
+        },
+        {
+          "feature": "Crude form",
+          "description": "Roughly humanoid but lacking refined features",
+          "frequency": "always"
+        },
+        {
+          "feature": "Mute",
+          "description": "Cannot speak",
+          "frequency": "always"
+        },
+        {
+          "feature": "Shem inscription",
+          "description": "'Emet' (truth) on forehead or shem tablet in mouth",
+          "frequency": "always"
+        }
+      ],
+      "morphology": "Humanoid figure made from clay. Large, strong, crude in appearance. Lacks soul, speech, and independent will."
+    },
+    "abilities": [
+      {
+        "ability": "Superhuman strength",
+        "description": "Extremely strong, capable of great physical feats",
+        "frequency": "always",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Tireless labor",
+        "description": "Does not tire, can work continuously",
+        "frequency": "always",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Obedience",
+        "description": "Follows commands of creator (usually)",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Protection",
+        "description": "Defends community from threats",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      }
+    ],
+    "behavior": {
+      "disposition": "obedient",
+      "patterns": [
+        "Follows creator's commands",
+        "Protects Jewish community",
+        "Works tirelessly on assigned tasks",
+        "May become uncontrollable if improperly managed",
+        "Interprets orders literally (can lead to problems)",
+        "Lacks moral reasoning or soul"
+      ],
+      "limitations": [
+        "Cannot speak",
+        "Lacks independent will",
+        "Must be deactivated on Sabbath (some traditions)",
+        "Can become dangerous if orders unclear or loses control"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Jewish folklore tradition, strongest association with Prague, Czech Republic. Concept appears in various Jewish communities across Europe and Middle East.",
+      "continents": ["Europe", "Middle East"],
+      "countries": ["Czech Republic", "Poland", "Germany", "Israel"],
+      "regions": [
+        "Prague (primary)",
+        "Jewish communities across Europe",
+        "Kabbalistic traditions"
+      ]
+    },
+    "cultural_centers": [
+      {
+        "name": "Prague",
+        "location": {
+          "description": "Prague, Czech Republic",
+          "country": "Czech Republic",
+          "region": "Bohemia"
+        },
+        "significance": "Site of most famous golem legend - Rabbi Loew's Golem of Prague",
+        "notes": "Old-New Synagogue and Jewish Quarter associated with legend"
+      }
+    ],
+    "temporal": {
+      "first_recorded": {
+        "date": "Medieval period",
+        "circa": true,
+        "source": "Kabbalistic texts and Jewish mystical traditions"
+      },
+      "famous_legend": {
+        "date": "16th century (c. 1580-1590)",
+        "event": "Golem of Prague created by Rabbi Judah Loew",
+        "notes": "Legend codified in writing much later (19th century)"
+      }
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Jewish mysticism (Kabbalah) and the Genesis creation story where God forms Adam from dust. Early rabbinic texts discuss creation of life through sacred names and rituals.",
+      "earliest_accounts": "Talmudic references to creating life through mystical means. Medieval Kabbalistic texts describe golem creation rituals.",
+      "folklore_connections": "Connected to broader themes of artificial life, creation, and the relationship between creator and created."
+    },
+    "timeline": [
+      {
+        "date": "Talmudic era (200-500 CE)",
+        "event": "Early references to life creation",
+        "significance": "Rabbis discussing mystical creation of living beings",
+        "source": "Talmudic texts"
+      },
+      {
+        "date": "Medieval period (12th-13th century)",
+        "event": "Kabbalistic golem instructions",
+        "significance": "Sefer Yetzirah and other texts describe golem creation rituals",
+        "source": "Kabbalistic literature"
+      },
+      {
+        "date": "c. 1580-1590",
+        "event": "Rabbi Loew's Golem of Prague (legendary)",
+        "significance": "Most famous golem story - protection of Prague Jewish ghetto",
+        "source": "Oral tradition, later written accounts"
+      },
+      {
+        "date": "1808",
+        "event": "First published account of Prague Golem",
+        "significance": "Story enters written literature",
+        "source": "Jakob Grimm's journal"
+      },
+      {
+        "date": "1915",
+        "event": "Gustav Meyrink's 'Der Golem' novel",
+        "significance": "Popular novel brings golem to international attention",
+        "source": "Novel publication"
+      },
+      {
+        "date": "1920",
+        "event": "The Golem film",
+        "significance": "Silent film classic spreading golem legend globally",
+        "source": "Film"
+      }
+    ],
+    "modern_era": "The golem remains powerful symbol in Jewish culture and broader discussions of artificial life, robotics, and creation ethics. Prague maintains golem tourism industry. Concept influences science fiction, AI ethics, and discussions of technology."
+  },
+
+  "legend": {
+    "golem_of_prague": {
+      "creator": "Rabbi Judah Loew ben Bezalel (Maharal of Prague)",
+      "date": "c. 1580-1590",
+      "purpose": "Defend Prague Jewish ghetto from antisemitic attacks and blood libels",
+      "creation_method": "Formed from clay from Vltava River banks, animated through ritual and shem (sacred name)",
+      "activation": "Word 'emet' (אמת - truth) inscribed on forehead or shem placed in mouth",
+      "deactivation": "Remove shem or erase first letter of 'emet' to make 'met' (מת - death)",
+      "story": "Rabbi Loew created golem to protect Jewish community. Golem performed tasks and protected against persecution. Eventually grew uncontrollable and violent. Rabbi deactivated golem on Sabbath eve. Body placed in attic of Old-New Synagogue where it allegedly remains.",
+      "variations": "Different versions exist regarding golem's end - some say it became violent, others that it served peacefully until no longer needed.",
+      "historical_note": "No contemporary accounts exist. Story emerged in oral tradition and written form centuries after Rabbi Loew's lifetime. Rabbi Loew was real historical figure (1512-1609), but golem creation is legend."
+    }
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Golem creation through Kabbalistic ritual",
+        "Use of sacred names to animate inanimate matter",
+        "Golem as protector of Jewish communities",
+        "Warning tales about uncontrollable creations"
+      ],
+      "beliefs": "Golem represents human attempt to emulate divine creation, with inherent limitations and dangers. Serves as cautionary tale about creation and responsibility."
+    },
+    "religious": {
+      "sensitivity_note": "Golem is part of Jewish religious and cultural tradition, particularly Kabbalistic mysticism. Respectful treatment of religious aspects is essential.",
+      "respect_guidelines": "Recognize Jewish cultural and religious context. Avoid trivialization of sacred concepts. Acknowledge distinction between folklore and religious practice."
+    },
+    "popular_culture": {
+      "literature": [
+        "\"Der Golem\" by Gustav Meyrink (1915)",
+        "\"Frankenstein\" by Mary Shelley (1818) - influenced by golem concept",
+        "\"The Golem and the Jinni\" by Helene Wecker (2013)",
+        "\"The Amazing Adventures of Kavalier & Clay\" by Michael Chabon (2000)"
+      ],
+      "film_tv": [
+        "The Golem (1915, 1920) - German silent films",
+        "The Golem (1966) - French-Czech film",
+        "The Golem (2018) - Horror film",
+        "Simpsons Treehouse of Horror XVII (2006) - Golem parody"
+      ],
+      "comics_games": [
+        "Various superhero comics featuring golem characters",
+        "Dungeons & Dragons (various editions)",
+        "Magic: The Gathering card game",
+        "World of Warcraft and other fantasy games"
+      ],
+      "influence": [
+        "Frankenstein's monster (direct influence)",
+        "Modern robotics and AI ethics discussions",
+        "Science fiction artificial beings",
+        "Discussions of creator responsibility"
+      ]
+    },
+    "symbolism": {
+      "meanings": [
+        "Creation and creator relationship",
+        "Servant versus master dynamics",
+        "Artificial life and its limitations",
+        "Power and responsibility",
+        "Protection of community",
+        "Dangers of uncontrolled creation",
+        "Human limitation in imitating divine creation"
+      ]
+    }
+  },
+
+  "research": {
+    "researchers": [
+      {
+        "name": "Gershom Scholem",
+        "affiliation": "Kabbalah scholar",
+        "contribution": "Research on Jewish mysticism and golem traditions",
+        "period": "20th century"
+      },
+      {
+        "name": "Byron Sherwin",
+        "affiliation": "Jewish scholar",
+        "contribution": "Studies on golem legend and Jewish ethics",
+        "period": "Contemporary"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "Jewish Museum in Prague",
+        "focus": "Preservation of golem legend and Jewish history"
+      }
+    ],
+    "ongoing_studies": "Contemporary research examines golem legend's origins, variations, and influence on modern concepts of artificial intelligence, robotics ethics, and creator responsibility."
+  },
+
+  "sources": [
+    {
+      "id": "scholem-1965",
+      "type": "book",
+      "title": "On the Kabbalah and Its Symbolism",
+      "authors": ["Gershom Scholem"],
+      "publication": "Schocken Books",
+      "date": "1965"
+    },
+    {
+      "id": "sherwin-1985",
+      "type": "book",
+      "title": "The Golem Legend: Origins and Implications",
+      "authors": ["Byron L. Sherwin"],
+      "publication": "University Press of America",
+      "date": "1985"
+    },
+    {
+      "id": "goldsmith-1981",
+      "type": "book",
+      "title": "The Golem Remembered, 1909-1980: Variations of a Jewish Legend",
+      "authors": ["Arnold L. Goldsmith"],
+      "publication": "Wayne State University Press",
+      "date": "1981"
+    }
+  ]
+}

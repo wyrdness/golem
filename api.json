@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-08",
     "repository": "https://github.com/wyrdness/golem",
     "maintainers": [
       {
@@ -16,71 +16,139 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "golem",
     "name": "Golem",
-    "aliases": [],
-    "category": "ENTITY_SPIRIT",
-    "subcategory": "Artificial Life",
-    "tags": [
-      "&-interpretation"
+    "aliases": [
+      { "name": "גולם", "language": "Hebrew", "meaning": "Raw material; unfinished human being; also 'dumb' or 'helpless' in Modern Hebrew" },
+      { "name": "Goylem", "language": "Yiddish", "meaning": "Lethargic or stuporous person; the Yiddish borrowing from Hebrew golem" },
+      { "name": "Golem of Prague", "region": "Czech Republic / Prague", "meaning": "The most famous specific golem, attributed to Rabbi Loew" },
+      { "name": "Yossele", "language": "Yiddish", "region": "Prague", "meaning": "Diminutive of Josef; the name given to the Golem of Prague in some traditions" }
     ],
-    "status": "documented",
+    "category": "ENTITY_SPIRIT",
+    "subcategory": "Artificial life / animated clay figure",
+    "tags": [
+      "jewish-folklore",
+      "kabbalistic",
+      "artificial-life",
+      "clay",
+      "prague",
+      "medieval",
+      "europe",
+      "animated-construct",
+      "protective-spirit"
+    ],
+    "status": "historical",
     "description": {
-      "summary": "The golem is an animated anthropomorphic being in Jewish folklore, created entirely from inanimate matter such as clay or mud.",
-      "full": "The golem is an animated anthropomorphic being in Jewish folklore, created entirely from inanimate matter such as clay or mud. The most famous golem legend is the **Golem of Prague**, attributed to Rabbi Judah Loew ben Bezalel in the 16th century. According to the legend, the golem was formed from clay and brought to life through ritual use of sacred names of God, typically by inscribing the word **\\\"emet\\\" (אמת - truth)** on its forehead or placing a tablet (shem) with God's name in its mouth. The golem is described as large, strong, mute, and obedient, lacking a soul and the ability to speak. Its purpose was to serve as a defender of the Jewish community, particularly the Prague ghetto, protecting Jews from persecution and pogroms. However, legends warn that the golem could become uncontrollable, growing violent or following orders too literally. The creature could be deactivated by removing the animating shem or erasing the first letter of \\\"emet\\\" to spell **\\\"met\\\" (מת - death)**. The golem legend has profoundly influenced later concepts of artificial life, including Frankenstein's monster and modern robotics ethics. ⚠️ **Cultural Sensitivity**: The golem is part of Jewish religious and cultural tradition, particularly Kabbalistic mysticism. Respectful treatment of religious aspects is essential."
+      "summary": "The golem is an animated anthropomorphic being of Jewish folklore, created from inanimate matter such as clay or mud through Kabbalistic ritual use of sacred Hebrew names, most famously the Golem of Prague attributed to Rabbi Judah Loew ben Bezalel in the 16th century.",
+      "full": "The golem is an animated anthropomorphic being in Jewish folklore, created entirely from inanimate matter — typically clay or mud — through the ritual use of divine Hebrew names. The word 'golem' appears once in the Bible (Psalm 139), meaning 'raw material' or 'unfinished human being.' In Modern Hebrew it means 'dumb' or 'helpless,' and passed into Yiddish as 'goylem' for someone lethargic or in a stupor. The earliest Talmudic references (Sanhedrin 38b, 65b) describe Adam initially created as a golem. The earliest known written account of how to create a golem appears in the Sode Raza by Eleazar of Worms (late 12th–early 13th centuries). Creation involved inscribing the Hebrew word 'emet' (truth, אמת) on the golem's forehead, or placing a shem (a tablet with God's name) in its mouth; deactivation required erasing the aleph (א) to change 'emet' to 'met' (dead, מת). The oldest documented creation story involves Rabbi Elijah of Chelm (1550–1583), whose golem grew uncontrollably until deactivated, the falling body crushing its creator. The most famous legend is the Golem of Prague, attributed to Rabbi Judah Loew ben Bezalel (the Maharal), formed from clay of the Vltava River to defend the Prague ghetto from antisemitic attacks. Named Yossele (Josef), it could reportedly turn invisible and summon spirits; it was deactivated before each Sabbath by removing its shem. Scholars note the Prague legend is a 19th-century German literary invention — no 16th–18th century Hebrew sources mention the Maharal creating a golem, and the Maharal himself made no such claim in his writings. The golem profoundly influenced later conceptions of artificial life, including Mary Shelley's Frankenstein and Karel Capek's R.U.R. (which coined 'robot')."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Hebrew; appears in Psalm 139:16 in the Bible",
+      "meaning": "In Biblical Hebrew: 'raw material' or 'unfinished/incomplete being.' In Modern Hebrew: 'dumb' or 'helpless.' In Yiddish (goylem): a lethargic or stuporous person.",
+      "first_use": "Biblical Hebrew (Psalm 139:16); Talmudic usage (Sanhedrin 38b, 65b); 12th–13th century for golem creation accounts"
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "ENTITY_SPIRIT",
-      "type": "Artificial Life",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Artificial construct",
+      "subtype": "Animated clay figure / protective servant",
+      "variant": "Jewish Kabbalistic"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "frankenstein-monster", "name": "Frankenstein's Monster", "relationship": "similar", "description": "Mary Shelley's 1818 artificial human; widely compared to the golem as a created being that becomes uncontrollable" },
+      { "id": "robot", "name": "Robot (R.U.R.)", "relationship": "similar", "description": "Karel Capek's 1921 coined term for artificial workers; Capek denied direct golem influence but many parallels are noted" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Clay or mud construction", "description": "Formed entirely from inanimate clay or mud, typically from a river bank; the Golem of Prague was made from clay of the Vltava River", "frequency": "always" },
+        { "feature": "Large and strong", "description": "Described as larger and stronger than a human, capable of serving as a physical protector", "frequency": "common" },
+        { "feature": "Mute", "description": "Golems lack the ability to speak; this distinguishes them from full humans and reflects their incomplete spiritual status", "frequency": "always" },
+        { "feature": "Inscription on forehead", "description": "The word 'emet' (truth, אמת) inscribed on the forehead, or a shem (sacred tablet) in the mouth, animates the golem", "frequency": "always" },
+        { "feature": "Human-like form", "description": "Anthropomorphic shape; formed in the image of a human being", "frequency": "always" }
+      ],
+      "morphology": "A large, mute, humanoid figure made of clay, animated by sacred Hebrew inscription. It lacks a soul (nefesh) in Jewish theological understanding, which is why it cannot speak — speech being the gift of the soul. It obeys commands literally."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Obedient service", "description": "Follows commands of its creator; in the Prague legend, performs tasks and protects the ghetto", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Superhuman strength", "description": "Described as stronger than humans, capable of physical protection", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Invisibility (Prague legend)", "description": "The Golem of Prague was reportedly able to become invisible and summon spirits", "frequency": "rare", "evidence_level": "folklore" },
+      { "ability": "Uncontrolled growth or violence", "description": "Legends consistently warn that golems can grow uncontrollable or follow orders too literally, becoming dangerous", "frequency": "occasional", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "diurnal",
+      "disposition": "neutral",
+      "social_structure": "solitary",
+      "habitat_preference": ["Jewish ghetto of Prague", "wherever its creator directs it"],
+      "diet": "Not applicable (animated construct; does not eat)",
+      "patterns": [
+        "Deactivated before the Sabbath by removing the animating shem",
+        "Follows creator's commands literally and without judgment",
+        "Becomes dangerous if not deactivated correctly or if commands are ambiguous",
+        "Returns to inert clay when deactivated"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Golem legends are rooted in Jewish communities of medieval and early modern Europe, particularly in Central and Eastern Europe (Poland, Czech Republic, Germany). The Prague legend is the most geographically specific. The concept has since spread globally through popular culture.",
+      "continents": ["Europe"],
+      "countries": ["Czech Republic", "Poland", "Germany", "Lithuania"],
+      "regions": [
+        "Prague (Jewish ghetto / Josefov)",
+        "Chelm, Poland",
+        "Vilna (Vilnius), Lithuania"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Old New Synagogue, Josefov, Prague",
+        "location": {
+          "description": "Old New Synagogue, Jewish Quarter (Josefov), Prague, Czech Republic",
+          "country": "Czech Republic",
+          "region": "Prague",
+          "coordinates": { "latitude": 50.0906, "longitude": 14.4186 }
+        },
+        "notes": "In the legend, the inert body of the Golem of Prague was stored in the synagogue's attic genizah for potential future use. A major tourist and pilgrimage site."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "1200-01-01",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Sode Raza by Eleazar of Worms (late 12th–early 13th century) — earliest known written account of golem creation"
+      },
+      "peak_activity_periods": [
+        { "period": "16th century", "description": "Period to which the Golem of Prague legend is attributed (Rabbi Loew, c. 1520–1609), though the narrative is a 19th-century literary invention" },
+        { "period": "1834–1909", "description": "Period of 19th-century German-Jewish literary elaboration of the Prague golem legend" }
+      ],
+      "seasonal_patterns": "The Golem of Prague was traditionally deactivated before each Sabbath (Friday evening)."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Jewish Kabbalistic tradition; rooted in ancient Hebrew theological reflection on creation, the divine name, and the boundary between life and death. The Sefer Yetzirah (Book of Formation) provides the Kabbalistic framework for letter-based creation. Talmudic accounts establish that sages could create artificial beings through divine name manipulation.",
+      "earliest_accounts": "Talmud (Sanhedrin 38b, 65b): Adam described as initially a golem; Rava creates a man using divine names. Eleazar of Worms (late 12th–early 13th century, Sode Raza): earliest written creation instructions. Rabbi Elijah of Chelm (16th century): oldest documented golem creation account (from 17th-century sources).",
+      "folklore_connections": "The golem parallels many cultural traditions of animated artificial humans: Talos in Greek mythology (bronze automaton protecting Crete), Pygmalion's animated statue, and modern science fiction robots and androids. Karel Capek's R.U.R. (1921) coined 'robot,' and many parallels to the golem are noted, though Capek denied direct influence."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1200-01-01", "event": "Eleazar of Worms composes Sode Raza containing the earliest known written instructions for creating a golem", "significance": "Foundational textual source for golem creation ritual", "source": "Wikipedia article on Golem" },
+      { "date": "1550-01-01", "event": "Rabbi Elijah of Chelm (1550–1583) reportedly creates a golem from lime; it grows uncontrollably and, when deactivated, crushes its creator", "significance": "Oldest documented specific golem creation account; establishes the 'creator destroyed by creation' motif", "source": "Wikipedia article on Golem" },
+      { "date": "1834-01-01", "event": "German-Jewish writers begin publishing elaborated versions of the Golem of Prague legend attributed to Rabbi Loew (Maharal); the narrative crystallizes over 1834–1847", "significance": "Historical scholars establish the Prague legend as a 19th-century literary invention, not a 16th-century tradition", "source": "Wikipedia article on Golem" },
+      { "date": "1909-01-01", "event": "Rabbi Yudel Rosenberg publishes Nifl'os Maharal, purportedly an eyewitness account of the Golem of Prague; recognized as a literary hoax in academic circles", "significance": "The Rosenberg book is the most elaborated version of the Prague legend; its fictional nature was established by Gershom Scholem", "source": "Wikipedia article on Golem" },
+      { "date": "1921-01-01", "event": "Karel Capek's R.U.R. premieres, coining the word 'robot'; the play features artificial workers created to serve humans who rebel against their creators", "significance": "The golem archetype enters secular global culture via the robot concept", "source": "Wikipedia article on Golem" }
+    ],
+    "modern_era": "The golem has become one of the most widely referenced archetypes in discussions of artificial intelligence, robotics ethics, and science fiction. It functions, as scholars have noted, as 'a highly mutable metaphor with seemingly limitless symbolism,' representing war, community, isolation, hope, and despair. In popular culture it appears in Jorge Luis Borges's poetry, Terry Pratchett's Discworld, Michael Chabon's The Amazing Adventures of Kavalier & Clay, Dungeons & Dragons, Minecraft, and the Final Fantasy series."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -91,35 +159,103 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": []
   },
+
   "theories": {
-    "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "paranormal": [
+      {
+        "name": "Divine name animation",
+        "description": "Within Kabbalistic theology, the golem represents the genuine possibility of creating life through mastery of divine Hebrew names — an extension of God's creative act through human ritual. Medieval Jewish scholars treated this as a real, if dangerous, spiritual practice.",
+        "proponents": ["Kabbalistic tradition", "Eleazar of Worms", "Talmudic sages (Rava)"],
+        "evidence_cited": ["Talmudic accounts of sages creating beings through divine names", "Extensive documented ritual traditions for golem creation in medieval Jewish texts"]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Precursor to artificial life / AI concepts",
+        "description": "The golem is an early cultural framework for thinking about artificial life, anticipating modern concerns about AI: the creation of an obedient but potentially uncontrollable artificial being, the ethics of creating servants, and the boundary between life and mechanism.",
+        "proponents": ["Science and technology scholars", "AI ethicists"],
+        "evidence_cited": ["Direct parallels between golem narratives (literal obedience, uncontrollable growth, deactivation) and modern AI safety concerns", "Karel Capek's R.U.R. coins 'robot' and draws on golem traditions"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "19th-century literary invention (Prague legend)",
+        "description": "The specific Golem of Prague narrative, attributed to Rabbi Loew, is a literary invention of the 19th century — no 16th, 17th, or 18th-century Hebrew sources mention the Maharal creating a golem, and the Maharal himself never wrote about it. Scholar Gershom Scholem established this.",
+        "proponents": ["Gershom Scholem", "Academic Judaic scholars"],
+        "evidence_cited": ["No 16th–18th century Hebrew sources mention the Maharal and a golem", "The Maharal never referred to the golem in his own writings", "Earliest written versions date to 1834–1847", "The Rosenberg 'eyewitness account' (1909) is recognized as a literary hoax"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Jewish Kabbalistic creation tradition",
+        "Prague Jewish community legend",
+        "Chelm Jewish community tradition",
+        "Vilna Gaon tradition (claimed ability to create a golem, declined on heavenly instruction)"
+      ],
+      "stories": [
+        "Rabbi Loew creates the Golem of Prague from Vltava River clay to protect the Jewish ghetto from antisemitic attacks; deactivates it each Sabbath; the golem's body remains in the attic of the Old New Synagogue",
+        "Rabbi Elijah of Chelm creates a golem that grows out of control; when he deactivates it, the falling body crushes him",
+        "Rava (Talmud, Sanhedrin 65b) creates a man using divine names; when Rabbi Zeira speaks to it and it does not answer, he returns it to dust — a being without speech lacks the soul"
+      ],
+      "beliefs": "In Jewish tradition, the golem represents humanity's capacity to imitate God's creative act through mastery of sacred language. It is always incomplete — lacking speech, which only God can grant with the soul. The creation of a golem was considered a mark of great spiritual attainment, but the legends consistently warn of hubris and the dangers of crossing the boundary between creator and creation."
+    },
+    "indigenous": {
+      "cultures": ["Ashkenazi Jewish community (Central and Eastern Europe)"],
+      "significance": "A central figure in Ashkenazi Jewish folklore, Kabbalistic tradition, and the cultural memory of the Prague Jewish community. The legend is closely tied to the real history of antisemitic persecution and the need for communal protection.",
+      "sensitivity_note": "The golem is part of living Jewish religious and cultural tradition, particularly Kabbalistic mysticism. Respectful treatment of the religious dimensions is important.",
+      "respect_guidelines": "When discussing the golem, distinguish between the religious/spiritual significance in Jewish tradition and the secular popular culture appropriations. Avoid reducing a meaningful religious and cultural concept to a mere monster trope."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "The Amazing Adventures of Kavalier & Clay — Michael Chabon (2000) — Pulitzer Prize-winning novel incorporating the Golem of Prague",
+        "The Golem and the Jinni — Helene Wecker (2013)",
+        "Small Gods — Terry Pratchett (golems in Discworld)",
+        "The Golem — Gustav Meyrink (1915) — classic German novel",
+        "Jorge Luis Borges — 'El Golem' (1958 poem)"
+      ],
+      "film_tv": [
+        "Der Golem (1920) — German Expressionist silent film",
+        "It's Alive (various) — films drawing on golem concepts"
+      ],
+      "games": [
+        "Dungeons & Dragons — golems as animated construct monster type",
+        "Minecraft — Iron Golem as a protective construct",
+        "Final Fantasy series — Golem as recurring summon/enemy"
+      ],
+      "other": [
+        "R.U.R. by Karel Capek (1921) — play coining the word 'robot'; parallels to golem tradition widely noted"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Gershom Scholem", "affiliation": "Hebrew University of Jerusalem", "contribution": "Established that the Golem of Prague legend is a 19th-century literary invention; foundational academic work on Kabbalistic golem traditions", "period": "1920s–1982" },
+      { "name": "Eleazar of Worms", "affiliation": "Medieval rabbi, Worms/Mainz", "contribution": "Authored Sode Raza (late 12th–early 13th century), containing the earliest known written instructions for golem creation", "period": "c. 1176–1238" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "The golem is studied in Judaic studies, folklore, comparative mythology, and as a precursor concept in the history of artificial intelligence. Academic interest continues in the golem's influence on science fiction and AI ethics discourse."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wikipedia-golem",
+      "type": "website",
+      "title": "Golem — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Golem",
+      "accessed": "2026-05-08"
+    }
+  ]
 }
